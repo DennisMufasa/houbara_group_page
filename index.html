@@ -4,9 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Houbara</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
+
+    <!-- navbar -->
+
+    <nav class="navbar">
+        <ul class="link-group">
+            <li class="link active"><a href="#">home</a></li>
+            <li class="link"><a href="#">products</a></li>
+            <li class="link"><a href="#">about</a></li>
+            <li class="link"><a href="#">contact</a></li>
+        </ul>
+    </nav>
     
+    <!-- home section -->
+
+    <section class="home-section active">
+        <h1 class="hero-heading">we are<br>houbara</h1>
+        <img src="images/burj-Al-Arab.jpeg" class="home-image" alt="">
+    </section>
+
+    <!-- products section -->
+    <section class="product-section">
+        <h1 class="products-heading">what's in stock</h1>
+
+        <div class="products-container">
+            <div class="product-card">
+                <img src="images/shirts.jpg" alt="" class="product-img">
+
+                <div class="product-content">
+                    <h1 class="product-title">cotton shirts</h1>
+                    <p class="product-details">we  offer stylish casual shirts of all shades made from world class cotton imported from Egypt</p>
+
+                    <div class="product-btn-grp">
+                        <button class="product-btn more-info">more info</button>
+
+                        <button class="product-btn purchase">purchase</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shirts.jpg" alt="" class="product-img">
+
+                <div class="product-content">
+                    <h1 class="product-title">khaki pants</h1>
+                    <p class="product-details">we have trendy khakis custom tailored to fit all body sized by the best tailors in Italy</p>
+
+                    <div class="product-btn-grp">
+                        <button class="product-btn more-info">more info</button>
+
+                        <button class="product-btn purchase">purchase</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="images/shirts.jpg" alt="" class="product-img">
+
+                <div class="product-content">
+                    <h1 class="product-title">hats and caps</h1>
+                    <p class="product-details">baseball caps, cowboy hats, binies and berrets for the awesome accesorised head cover</p>
+
+                    <div class="product-btn-grp">
+                        <button class="product-btn more-info">more info</button>
+
+                        <button class="product-btn purchase">purchase</button>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="images/shirts.jpg" alt="" class="product-img">
+
+                <div class="product-content">
+                    <h1 class="product-title">cultural kandura</h1>
+                    <p class="product-details">traditional arabic dress for gents available in varying shades</p>
+
+                    <div class="product-btn-grp">
+                        <button class="product-btn more-info">more info</button>
+
+                        <button class="product-btn purchase">purchase</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+ 
+<!-- about section -->
+
+<section class="about-section">
+    <div class="about">
+        <div class="about-image-container">
+            <img src="images/store-banner.jpg" alt="" class="about-image">
+            <button class="store-btn">visit shop</button>
+        </div>
+        <p class="about-info">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam libero earum dolore ipsam molestiae animi! Soluta quaerat, nobis delectus vel veritatis obcaecati quos exercitationem harum aliquid minima fuga, nostrum assumendasum, dolor sit amet consectetur adipisicing elit. Numquam libero earum dolore ipsam molestiae animi! Soluta quaerat, nobis delectus vel veritatis obcaecati quos exercitationem harum aliquid minima fuga, nostrum assumenda?</p>
+        
+    </div>
+</section>
+
+<!-- contact us section -->
+
+<section class="contact-section">
+    <form action="" class="contact-form">
+        <input type="text" name="name" id="name" autocomplete="off" placeholder="name">
+        <input type="email" name="email" id="email" autocomplete="off" placeholder="email" >
+        <textarea name="msg" id="msg" placeholder="messgae" autocomplete="off"></textarea>
+        <button class="form-submit-btn" type="submit">contact</button>
+
+    </form>
+
+    <!-- map -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.452746786915!2d55.28104819999999!3d25.221671499999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42f27be8609d%3A0xb45d5817331f9d29!2sLatifa%20Tower%20-%20Trade%20Centre%20-%20Trade%20Centre%201%20-%20Dubai!5e0!3m2!1sen!2sae!4v1640696058225!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+</section>
+
+    <script src="app.js"></script>
 </body>
 </html>
